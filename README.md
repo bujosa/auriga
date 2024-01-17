@@ -14,14 +14,14 @@ Auriga is a simple project that simulates a basic Redis server in Rust. It's a k
 2. Navigate into the project directory: `cd auriga`
 3. Run the server: `cargo run`
 
-The server will start on `localhost` at port `6379`.
+The server will start on `localhost` at port `6390`.
 
 ## Usage
 
 You can interact with the server using any TCP client. Here's an example using `telnet`:
 
 ```shell
-$ telnet localhost 6379
+$ telnet localhost 6390
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
